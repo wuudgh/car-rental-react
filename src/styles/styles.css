@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
+* {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  grid-area: header;
+  display: grid;
+  grid-template-areas:
+    "home"
+    "price"
+    "offers"
+    "vehicles";
+
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  position: sticky;
+}
+header > h1 {
+  font-style: initial;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  font-weight: bolder;
+  color: rgb(255, 0, 68);
+  position: sticky;
+}
+
+#prices {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: rgb(255, 0, 68);
+  display: inline-block;
+  letter-spacing: 2px;
+  border-radius: 4px;
+  margin-top: 25px;
+  transition: ease-out 0.6s;
+  font-size: 2rem;
+  outline: none;
+  font-size: medium;
+  width: 8rem;
+  height: 2rem;
+  border: none;
+}
+
+#prices:hover {
+  box-shadow: inset 300px 0 0 0 #f094ad;
+}
+#booking {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: rgb(255, 0, 68);
+  display: inline-block;
+  letter-spacing: 2px;
+  border-radius: 4px;
+  margin-top: 25px;
+  box-shadow: inset #f9e506;
+  transition: ease-out 0.6s;
+  font-size: 2rem;
+  outline: none;
+  font-size: medium;
+  width: 8rem;
+  height: 2rem;
+  border: none;
+}
+#booking:hover {
+  box-shadow: inset 300px 0 0 0#f094ad;
+}
+#offers {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: rgb(255, 0, 68);
+  display: inline-block;
+  letter-spacing: 2px;
+  border-radius: 4px;
+  margin-top: 25px;
+  box-shadow: inset #f9e506;
+  transition: ease-out 0.6s;
+  font-size: 2rem;
+  outline: none;
+  font-size: medium;
+  width: 8rem;
+  height: 2rem;
+  border: none;
+}
+#offers:hover {
+  box-shadow: inset 300px 0 0 0 #f094ad;
+}
+#home {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: rgb(255, 0, 68);
+  display: inline-block;
+  letter-spacing: 2px;
+  border-radius: 4px;
+  margin-top: 25px;
+  transition: ease-out 0.6s;
+  font-size: 2rem;
+  outline: none;
+  font-size: medium;
+  width: 8rem;
+  height: 2rem;
+  gap: 2rem;
+  border: none;
+}
+#home:hover {
+  box-shadow: inset 300px 0 0 0 #f094ad;
+}
+#home > Link {
+  text-decoration: none;
+}
+
+#book-a-form {
+  width: 400px;
+  margin-left: 30px;
+  margin-top: 20px;
+  background-color: rgb(255, 0, 68);
+  text-align: center;
+  border-radius: 5px;
+  position: sticky;
+}
+
+.select-car-type {
+  margin-top: 1rem;
+  margin-left: 10px;
+  background-color: #f094ad;
+  border: none;
+  width: 15rem;
+  height: 1.5rem;
+  border-radius: 2px;
+}
+
+.pickup-date input {
+  margin-top: 1rem;
+  margin-left: 10px;
+  background-color: #f094ad;
+  border: none;
+  width: 15rem;
+  height: 1.5rem;
+  border-radius: 2px;
+}
+
+.select-cities {
+  margin-top: 1rem;
+  margin-left: 10px;
+  background-color: #f094ad;
+  border: none;
+  width: 15rem;
+  height: 1.5rem;
+  border-radius: 2px;
+}
+
+.return-date input {
+  margin-top: 1rem;
+  text-decoration: none;
+  background-color: #f094ad;
+  border: none;
+  text-decoration: none;
+  border-radius: 2px;
+  width: 15rem;
+  height: 1.5rem;
+}
+
+#rent-cars {
+  margin-left: 30px;
+  background-color: rgb(234, 245, 212);
+  text-align: center;
+  border-radius: 5%;
+  position: sticky;
+  bottom: 0;
+}
+
+.price-images {
+  width: 300px;
+  border-radius: 4px;
+
+  margin: 30px;
+}
+
+.reserve > button {
+  text-decoration: none;
+  background-color: rgb(255, 0, 68);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  width: 8rem;
+  height: 2rem;
+  border-radius: 3px;
+  border: none;
+  transition: ease-out 0.8s;
+}
+.reserve > button:hover {
+  box-shadow: inset 300px 0 0 0 #f094ad;
+}

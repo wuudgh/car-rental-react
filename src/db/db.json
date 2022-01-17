@@ -1,0 +1,93 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "typeOfCar": "TOYOTA COROLLA",
+      "year": 2019,
+      "color": "white",
+      "image": "asset/toyota-corolla.jpeg",
+      "priceDaily": "$ 30 DAILY",
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "typeOfCar": "HYUNDAI ELANTRA",
+      "year": 2020,
+      "color": "blue",
+      "image": "asset/hyundia-elantra.png",
+      "priceDaily": "$ 30 DAILY",
+      "quantity": 4
+    },
+    {
+      "id": 3,
+      "typeOfCar": "KIA RIO",
+      "year": 2019,
+      "color": "grey",
+      "image": "asset/kia-rio.jpeg",
+      "priceDaily": "$ 30 DAILY",
+      "quantity": 2
+    },
+    {
+      "id": 1,
+      "typeOfCar": "TOYOTA LANDCRUISER",
+      "year": 2019,
+      "color": "black",
+      "image": "asset/toyota-land-cruiser.jpeg",
+      "priceDaily": "$ 80 DAILY",
+      "quantity": 1
+    },
+    {
+      "id": 1,
+      "typeOfCar": "BMW 1 SERIES",
+      "year": 2019,
+      "color": "blue",
+      "image": "asset/BMW-1series.jpeg",
+      "priceDaily": "$ 40 DAILY",
+      "quantity": 1
+    }
+  ],
+  "Bookings": [
+    {
+      "carType": "TOYOTA COROLLA",
+      "pickUpDate": "2022-01-15",
+      "returnDate": "2022-01-29",
+      "cityName": "kumasi",
+      "id": 1
+    },
+    {
+      "carType": "",
+      "pickUpDate": "",
+      "returnDate": "",
+      "cityName": "",
+      "id": 2
+    },
+    {
+      "carType": "KIA RIO",
+      "pickUpDate": "2022-01-12",
+      "returnDate": "2022-01-21",
+      "cityName": "kumasi",
+      "id": 3
+    },
+    {
+      "carType": "TOYOTA COROLLA",
+      "pickUpDate": "2022-01-17",
+      "returnDate": "2022-01-17",
+      "cityName": "cape",
+      "id": 4
+    },
+    {
+      "carType": "",
+      "pickUpDate": "",
+      "returnDate": "",
+      "cityName": "",
+      "id": 5
+    },
+    {
+      "carType": "",
+      "pickUpDate": "",
+      "returnDate": "",
+      "cityName": "",
+      "id": 6
+    }
+  ]
+}
