@@ -14,7 +14,7 @@ function App() {
   const [showForm, setShowForm] = useState(true);
   const [isPrice, setisPrice] = useState();
   const [isHome, setisHome] = useState(false);
-  const [isOffers, setOffers] = useState(false);
+  const [isOffers, setisOffers] = useState(false);
 
   const priceHandler = () => {
     setisPrice(true);
@@ -24,10 +24,10 @@ function App() {
   const homeHandler = () => {
     setisHome(true);
     setisPrice(false);
-    setOffers(false);
+    setisOffers(false);
   };
   const offersHandler = () => {
-    setOffers(true);
+    setisOffers(true);
     setisHome(false);
     setisPrice(false);
   };
